@@ -1,0 +1,164 @@
+2018-02-24 15:43:51.506 [main] INFO  [com.onion.HouseApplication:48] - Starting HouseApplication on zhangqideMacBook-Pro.local with PID 63355 (/Users/OnionMac/company/house/target/classes started by OnionMac in /Users/OnionMac/company/house)
+2018-02-24 15:43:51.508 [main] INFO  [com.onion.HouseApplication:593] - No active profile set, falling back to default profiles: default
+2018-02-24 15:43:51.548 [main] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@dbf57b3: startup date [Sat Feb 24 15:43:51 CST 2018]; root of context hierarchy
+2018-02-24 15:43:51.717 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.3.6.Final
+2018-02-24 15:43:52.388 [main] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8032 (http)
+2018-02-24 15:43:52.395 [main] INFO  [org.apache.catalina.core.StandardService:180] - Starting service [Tomcat]
+2018-02-24 15:43:52.395 [main] INFO  [org.apache.catalina.core.StandardEngine:180] - Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-24 15:43:52.442 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:180] - Initializing Spring embedded WebApplicationContext
+2018-02-24 15:43:52.442 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 895 ms
+2018-02-24 15:43:52.451 [localhost-startStop-1] INFO  [com.onion.config.DruidConfig:30] - init Druid Servlet Configuration 
+2018-02-24 15:43:52.550 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-02-24 15:43:52.551 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-24 15:43:52.553 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-24 15:43:52.554 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-24 15:43:52.554 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-24 15:43:52.554 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-24 15:43:52.554 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:271] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-02-24 15:43:53.039 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@dbf57b3: startup date [Sat Feb 24 15:43:51 CST 2018]; root of context hierarchy
+2018-02-24 15:43:53.074 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/index]}" onto public java.lang.String com.onion.controller.HelloController.index()
+2018-02-24 15:43:53.075 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/hello]}" onto public java.lang.String com.onion.controller.HelloController.hello(org.springframework.ui.ModelMap)
+2018-02-24 15:43:53.077 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/getAllUser],methods=[GET]}" onto public java.util.List<com.onion.bean.User> com.onion.controller.UserController.getAllUser()
+2018-02-24 15:43:53.079 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-24 15:43:53.079 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-24 15:43:53.096 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-24 15:43:53.097 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-24 15:43:53.120 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-24 15:43:53.209 [main] INFO  [o.s.w.servlet.view.freemarker.FreeMarkerConfigurer:127] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-02-24 15:43:53.338 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:431] - Registering beans for JMX exposure on startup
+2018-02-24 15:43:53.339 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:916] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-24 15:43:53.342 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:671] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-24 15:43:53.353 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:180] - Initializing ProtocolHandler ["http-nio-8032"]
+2018-02-24 15:43:53.360 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:180] - Starting ProtocolHandler ["http-nio-8032"]
+2018-02-24 15:43:53.382 [main] INFO  [org.apache.tomcat.util.net.NioSelectorPool:180] - Using a shared selector for servlet write/read
+2018-02-24 15:43:53.392 [main] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:201] - Tomcat started on port(s): 8032 (http)
+2018-02-24 15:43:53.395 [main] INFO  [com.onion.HouseApplication:57] - Started HouseApplication in 2.391 seconds (JVM running for 2.792)
+2018-02-24 15:44:12.434 [http-nio-8032-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-24 15:44:12.434 [http-nio-8032-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-24 15:44:12.447 [http-nio-8032-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+2018-02-24 17:29:24.716 [Thread-3] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@dbf57b3: startup date [Sat Feb 24 15:43:51 CST 2018]; root of context hierarchy
+2018-02-24 17:29:24.718 [Thread-3] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2018-02-24 17:29:24.719 [Thread-3] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:241] - Unregistering JMX-exposed beans
+2018-02-24 17:29:30.075 [main] INFO  [com.onion.HouseApplication:48] - Starting HouseApplication on zhangqideMacBook-Pro.local with PID 63916 (/Users/OnionMac/company/house/target/classes started by OnionMac in /Users/OnionMac/company/house)
+2018-02-24 17:29:30.078 [main] INFO  [com.onion.HouseApplication:593] - No active profile set, falling back to default profiles: default
+2018-02-24 17:29:30.115 [main] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61862a7f: startup date [Sat Feb 24 17:29:30 CST 2018]; root of context hierarchy
+2018-02-24 17:29:30.294 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.3.6.Final
+2018-02-24 17:29:30.996 [main] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8032 (http)
+2018-02-24 17:29:31.003 [main] INFO  [org.apache.catalina.core.StandardService:180] - Starting service [Tomcat]
+2018-02-24 17:29:31.004 [main] INFO  [org.apache.catalina.core.StandardEngine:180] - Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-24 17:29:31.049 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:180] - Initializing Spring embedded WebApplicationContext
+2018-02-24 17:29:31.049 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 934 ms
+2018-02-24 17:29:31.057 [localhost-startStop-1] INFO  [com.onion.config.DruidConfig:30] - init Druid Servlet Configuration 
+2018-02-24 17:29:31.150 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-02-24 17:29:31.151 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-24 17:29:31.152 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-24 17:29:31.153 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-24 17:29:31.153 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-24 17:29:31.153 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-24 17:29:31.153 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:271] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-02-24 17:29:31.631 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61862a7f: startup date [Sat Feb 24 17:29:30 CST 2018]; root of context hierarchy
+2018-02-24 17:29:31.668 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/index]}" onto public java.lang.String com.onion.controller.HelloController.index()
+2018-02-24 17:29:31.669 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/hello]}" onto public java.lang.String com.onion.controller.HelloController.hello(org.springframework.ui.ModelMap)
+2018-02-24 17:29:31.671 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/register]}" onto public java.lang.String com.onion.controller.UserController.register()
+2018-02-24 17:29:31.672 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/getAllUser],methods=[GET]}" onto public java.util.List<com.onion.bean.User> com.onion.controller.UserController.getAllUser()
+2018-02-24 17:29:31.674 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-24 17:29:31.674 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-24 17:29:31.691 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-24 17:29:31.691 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-24 17:29:31.713 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-24 17:29:31.798 [main] INFO  [o.s.w.servlet.view.freemarker.FreeMarkerConfigurer:127] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-02-24 17:29:31.941 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:431] - Registering beans for JMX exposure on startup
+2018-02-24 17:29:31.941 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:916] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-24 17:29:31.946 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:671] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-24 17:29:31.957 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:180] - Initializing ProtocolHandler ["http-nio-8032"]
+2018-02-24 17:29:31.964 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:180] - Starting ProtocolHandler ["http-nio-8032"]
+2018-02-24 17:29:31.991 [main] INFO  [org.apache.tomcat.util.net.NioSelectorPool:180] - Using a shared selector for servlet write/read
+2018-02-24 17:29:32.007 [main] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:201] - Tomcat started on port(s): 8032 (http)
+2018-02-24 17:29:32.012 [main] INFO  [com.onion.HouseApplication:57] - Started HouseApplication in 2.473 seconds (JVM running for 2.883)
+2018-02-24 17:29:43.353 [http-nio-8032-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-24 17:29:43.353 [http-nio-8032-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-24 17:29:43.364 [http-nio-8032-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+2018-02-24 17:30:00.902 [Thread-3] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61862a7f: startup date [Sat Feb 24 17:29:30 CST 2018]; root of context hierarchy
+2018-02-24 17:30:00.904 [Thread-3] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2018-02-24 17:30:00.904 [Thread-3] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:241] - Unregistering JMX-exposed beans
+2018-02-24 17:30:03.001 [main] INFO  [com.onion.HouseApplication:48] - Starting HouseApplication on zhangqideMacBook-Pro.local with PID 63922 (/Users/OnionMac/company/house/target/classes started by OnionMac in /Users/OnionMac/company/house)
+2018-02-24 17:30:03.003 [main] INFO  [com.onion.HouseApplication:593] - No active profile set, falling back to default profiles: default
+2018-02-24 17:30:03.034 [main] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61862a7f: startup date [Sat Feb 24 17:30:03 CST 2018]; root of context hierarchy
+2018-02-24 17:30:03.205 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.3.6.Final
+2018-02-24 17:30:03.942 [main] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8032 (http)
+2018-02-24 17:30:03.949 [main] INFO  [org.apache.catalina.core.StandardService:180] - Starting service [Tomcat]
+2018-02-24 17:30:03.949 [main] INFO  [org.apache.catalina.core.StandardEngine:180] - Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-24 17:30:03.993 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:180] - Initializing Spring embedded WebApplicationContext
+2018-02-24 17:30:03.994 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 960 ms
+2018-02-24 17:30:04.002 [localhost-startStop-1] INFO  [com.onion.config.DruidConfig:30] - init Druid Servlet Configuration 
+2018-02-24 17:30:04.095 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-02-24 17:30:04.096 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-24 17:30:04.098 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-24 17:30:04.098 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-24 17:30:04.099 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-24 17:30:04.099 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-24 17:30:04.099 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:271] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-02-24 17:30:04.587 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61862a7f: startup date [Sat Feb 24 17:30:03 CST 2018]; root of context hierarchy
+2018-02-24 17:30:04.632 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/index]}" onto public java.lang.String com.onion.controller.HelloController.index()
+2018-02-24 17:30:04.633 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/register]}" onto public java.lang.String com.onion.controller.HelloController.register()
+2018-02-24 17:30:04.634 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/hello]}" onto public java.lang.String com.onion.controller.HelloController.hello(org.springframework.ui.ModelMap)
+2018-02-24 17:30:04.636 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/getAllUser],methods=[GET]}" onto public java.util.List<com.onion.bean.User> com.onion.controller.UserController.getAllUser()
+2018-02-24 17:30:04.638 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-24 17:30:04.639 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-24 17:30:04.657 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-24 17:30:04.658 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-24 17:30:04.683 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-24 17:30:04.783 [main] INFO  [o.s.w.servlet.view.freemarker.FreeMarkerConfigurer:127] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-02-24 17:30:04.940 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:431] - Registering beans for JMX exposure on startup
+2018-02-24 17:30:04.941 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:916] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-24 17:30:04.947 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:671] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-24 17:30:04.957 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:180] - Initializing ProtocolHandler ["http-nio-8032"]
+2018-02-24 17:30:04.963 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:180] - Starting ProtocolHandler ["http-nio-8032"]
+2018-02-24 17:30:04.983 [main] INFO  [org.apache.tomcat.util.net.NioSelectorPool:180] - Using a shared selector for servlet write/read
+2018-02-24 17:30:04.992 [main] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:201] - Tomcat started on port(s): 8032 (http)
+2018-02-24 17:30:04.997 [main] INFO  [com.onion.HouseApplication:57] - Started HouseApplication in 2.254 seconds (JVM running for 2.643)
+2018-02-24 17:30:08.123 [http-nio-8032-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-24 17:30:08.123 [http-nio-8032-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-24 17:30:08.134 [http-nio-8032-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+2018-02-24 17:30:25.415 [Thread-3] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61862a7f: startup date [Sat Feb 24 17:30:03 CST 2018]; root of context hierarchy
+2018-02-24 17:30:25.417 [Thread-3] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2018-02-24 17:30:25.417 [Thread-3] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:241] - Unregistering JMX-exposed beans
+2018-02-24 17:30:27.408 [main] INFO  [com.onion.HouseApplication:48] - Starting HouseApplication on zhangqideMacBook-Pro.local with PID 63931 (/Users/OnionMac/company/house/target/classes started by OnionMac in /Users/OnionMac/company/house)
+2018-02-24 17:30:27.409 [main] INFO  [com.onion.HouseApplication:593] - No active profile set, falling back to default profiles: default
+2018-02-24 17:30:27.439 [main] INFO  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61862a7f: startup date [Sat Feb 24 17:30:27 CST 2018]; root of context hierarchy
+2018-02-24 17:30:27.605 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] - HV000001: Hibernate Validator 5.3.6.Final
+2018-02-24 17:30:28.458 [main] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89] - Tomcat initialized with port(s): 8032 (http)
+2018-02-24 17:30:28.466 [main] INFO  [org.apache.catalina.core.StandardService:180] - Starting service [Tomcat]
+2018-02-24 17:30:28.467 [main] INFO  [org.apache.catalina.core.StandardEngine:180] - Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-24 17:30:28.516 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:180] - Initializing Spring embedded WebApplicationContext
+2018-02-24 17:30:28.516 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] - Root WebApplicationContext: initialization completed in 1077 ms
+2018-02-24 17:30:28.525 [localhost-startStop-1] INFO  [com.onion.config.DruidConfig:30] - init Druid Servlet Configuration 
+2018-02-24 17:30:28.623 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-02-24 17:30:28.624 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.ServletRegistrationBean:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-24 17:30:28.626 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-24 17:30:28.626 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-24 17:30:28.626 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-24 17:30:28.626 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-24 17:30:28.627 [localhost-startStop-1] INFO  [o.s.boot.web.servlet.FilterRegistrationBean:271] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-02-24 17:30:29.124 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61862a7f: startup date [Sat Feb 24 17:30:27 CST 2018]; root of context hierarchy
+2018-02-24 17:30:29.163 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/index]}" onto public java.lang.String com.onion.controller.HelloController.index()
+2018-02-24 17:30:29.163 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/register]}" onto public java.lang.String com.onion.controller.HelloController.register()
+2018-02-24 17:30:29.164 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/hello]}" onto public java.lang.String com.onion.controller.HelloController.hello(org.springframework.ui.ModelMap)
+2018-02-24 17:30:29.166 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/getAllUser],methods=[GET]}" onto public java.util.List<com.onion.bean.User> com.onion.controller.UserController.getAllUser()
+2018-02-24 17:30:29.169 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-24 17:30:29.169 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-24 17:30:29.187 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-24 17:30:29.187 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-24 17:30:29.211 [main] INFO  [o.s.web.servlet.handler.SimpleUrlHandlerMapping:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-24 17:30:29.304 [main] INFO  [o.s.w.servlet.view.freemarker.FreeMarkerConfigurer:127] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-02-24 17:30:29.455 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:431] - Registering beans for JMX exposure on startup
+2018-02-24 17:30:29.456 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:916] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-24 17:30:29.464 [main] INFO  [o.s.jmx.export.annotation.AnnotationMBeanExporter:671] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-24 17:30:29.480 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:180] - Initializing ProtocolHandler ["http-nio-8032"]
+2018-02-24 17:30:29.487 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:180] - Starting ProtocolHandler ["http-nio-8032"]
+2018-02-24 17:30:29.509 [main] INFO  [org.apache.tomcat.util.net.NioSelectorPool:180] - Using a shared selector for servlet write/read
+2018-02-24 17:30:29.520 [main] INFO  [o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:201] - Tomcat started on port(s): 8032 (http)
+2018-02-24 17:30:29.524 [main] INFO  [com.onion.HouseApplication:57] - Started HouseApplication in 2.358 seconds (JVM running for 2.754)
+2018-02-24 17:30:31.986 [http-nio-8032-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-24 17:30:31.986 [http-nio-8032-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-24 17:30:31.999 [http-nio-8032-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
